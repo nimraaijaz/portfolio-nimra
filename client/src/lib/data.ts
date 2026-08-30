@@ -126,98 +126,145 @@ export type Project = {
 };
 
 export const PROJECTS: Project[] = [
-  {
-    number: "01",
-    name: "AI Interview Coach",
-    category: "AI / Full Stack",
-    stack: [
-      "FastAPI",
-      "Next.js",
-      "TypeScript",
-      "MySQL",
-      "SQLAlchemy",
-      "JWT",
-      "Google Gemini AI",
-      "React Query",
-      "React Hook Form",
-      "Tailwind CSS",
-      "Framer Motion",
-      "ReportLab",
-    ],
-    description:
-      "Full-stack AI mock-interview platform where authenticated users select a role, receive AI-generated interview questions, and receive structured feedback and scoring on their answers.",
-    highlights: [
-      "JWT authentication",
-      "AI-generated interview questions",
-      "Gemini API integration",
-      "MySQL relational database",
-      "SQLAlchemy ORM",
-      "Alembic migrations",
-      "REST APIs with FastAPI",
-      "React/Next.js frontend",
-      "Automated PDF feedback reports",
-    ],
-    github: "https://github.com/nimraaijaz/fastapi",
-  },
-  {
-    number: "02",
-    name: "Developer Portfolio",
-    category: "Frontend / React",
-    stack: ["React", "Vite"],
-    description:
-      "Rebuilt a previously static HTML/CSS/JavaScript portfolio as a component-based React application using Vite, improving structure, reusability, maintainability, and iteration speed.",
-    github: "https://github.com/nimraaijaz/reactproject",
-  },
-  {
-    number: "03",
-    name: "MediTrust Pharma System",
-    category: "Full Stack / Software Engineering",
-    stack: ["Python", "HTML", "CSS", "JSON"],
-    badge: "1st Position — Project Exhibition",
-    description:
-      "Pharmacy management system designed to streamline medicine handling and inventory management with an interface focused on efficient data handling.",
-    github: "https://github.com/nimraaijaz/Pharmacyproject",
-  },
-  {
-    number: "04",
-    name: "SwiftPOS",
-    category: "Backend / Database",
-    stack: ["Python", "Flask", "MongoDB"],
-    description:
-      "Point-of-sale system for grocery stores with inventory and billing management, using MongoDB for flexible storage of store data and transactions.",
-  },
-  {
-    number: "05",
-    name: "RideWave",
-    category: "Database / Backend Logic",
-    stack: ["MySQL", "Triggers", "Stored Procedures"],
-    description:
-      "Ride-sharing platform enabling users to offer midway ride continuations or join existing rides, powered by MySQL triggers and stored procedures for database-driven logic.",
-  },
-  {
-    number: "06",
-    name: "Festify",
-    category: "Algorithms / Event Management",
-    stack: ["Event Management", "CPU Scheduling Algorithms"],
-    description:
-      "Event booking and management system that uses FIFO, SJF, and Round-Robin CPU scheduling algorithms to manage event queues efficiently.",
-  },
-  {
-    number: "07",
-    name: "CareChain",
-    category: "Software Architecture",
-    stack: ["JavaFX", "Software Design Patterns"],
-    description:
-      "Donation platform supporting goods and money donations, needy-area tracking, and donor management, implemented using six software design patterns.",
-  },
-  {
-    number: "08",
-    name: "Bank Management System",
-    category: "Java / DSA",
-    stack: ["JavaFX", "DSA", "OOP"],
-    description:
-      "JavaFX banking application with account management, transactions, and balance tracking, applying DSA concepts for performance-oriented data handling.",
-  },
+{
+number: "01",
+name: "ML Internship Project",
+category: "Machine Learning / Internship",
+stack: [
+"Python",
+"Machine Learning",
+"Data Analysis",
+"Model Evaluation",
+],
+description:
+"Upcoming machine learning case study from my internship, documenting the problem, implementation approach, experimentation, and resulting outcome as the work progresses.",
+highlights: [
+"Upcoming internship project",
+"Machine learning workflow",
+"Data preparation and analysis",
+"Model development",
+"Evaluation and experimentation",
+],
+badge: "Upcoming Case Study",
+},
+{
+number: "02",
+name: "The Last Story",
+category: "AI / Full Stack",
+stack: [
+"React",
+"TypeScript",
+"Google Gemini AI",
+"AI Integration",
+"Tailwind CSS",
+"Framer Motion",
+],
+description:
+"AI-powered web experience built as a customer-facing application, integrating Google Gemini to provide an interactive AI-assisted experience through a polished React interface.",
+highlights: [
+"Google Gemini API integration",
+"AI-powered user experience",
+"React-based frontend",
+"Interactive UI",
+"Responsive design",
+"Production deployment",
+],
+github: "https://github.com/nimraaijaz/the-last-world",
+live: "https://the-last-world.netlify.app/",
+badge: "Live Project",
+},
+{
+number: "03",
+name: "AI Interview Coach",
+category: "AI / Full Stack",
+stack: [
+"FastAPI",
+"Next.js",
+"TypeScript",
+"MySQL",
+"SQLAlchemy",
+"JWT",
+"Google Gemini AI",
+"React Query",
+"React Hook Form",
+"Tailwind CSS",
+"Framer Motion",
+"ReportLab",
+],
+description:
+"Full-stack AI mock-interview platform where authenticated users select a role, receive AI-generated interview questions, and receive structured feedback and scoring on their answers.",
+highlights: [
+"JWT authentication",
+"AI-generated interview questions",
+"Gemini API integration",
+"MySQL relational database",
+"SQLAlchemy ORM",
+"Alembic migrations",
+"REST APIs with FastAPI",
+"React/Next.js frontend",
+"Automated PDF feedback reports",
+],
+github: "https://github.com/nimraaijaz/fastapi",
+},
+{
+number: "04",
+name: "Developer Portfolio",
+category: "Frontend / React",
+stack: ["React", "Vite"],
+description:
+"Rebuilt a previously static HTML/CSS/JavaScript portfolio as a component-based React application using Vite, improving structure, reusability, maintainability, and iteration speed.",
+github: "https://github.com/nimraaijaz/reactproject",
+},
+{
+number: "05",
+name: "MediTrust Pharma System",
+category: "Full Stack / Software Engineering",
+stack: ["Python", "HTML", "CSS", "JSON"],
+badge: "1st Position — Project Exhibition",
+description:
+"Pharmacy management system designed to streamline medicine handling and inventory management with an interface focused on efficient data handling.",
+github: "https://github.com/nimraaijaz/Pharmacyproject",
+},
+{
+number: "06",
+name: "SwiftPOS",
+category: "Backend / Database",
+stack: ["Python", "Flask", "MongoDB"],
+description:
+"Point-of-sale system for grocery stores with inventory and billing management, using MongoDB for flexible storage of store data and transactions.",
+},
+{
+number: "07",
+name: "RideWave",
+category: "Database / Backend Logic",
+stack: ["MySQL", "Triggers", "Stored Procedures"],
+description:
+"Ride-sharing platform enabling users to offer midway ride continuations or join existing rides, powered by MySQL triggers and stored procedures for database-driven logic.",
+},
+{
+number: "08",
+name: "Festify",
+category: "Algorithms / Event Management",
+stack: ["Event Management", "CPU Scheduling Algorithms"],
+description:
+"Event booking and management system that uses FIFO, SJF, and Round-Robin CPU scheduling algorithms to manage event queues efficiently.",
+},
+{
+number: "09",
+name: "CareChain",
+category: "Software Architecture",
+stack: ["JavaFX", "Software Design Patterns"],
+description:
+"Donation platform supporting goods and money donations, needy-area tracking, and donor management, implemented using six software design patterns.",
+},
+{
+number: "10",
+name: "Bank Management System",
+category: "Java / DSA",
+stack: ["JavaFX", "DSA", "OOP"],
+description:
+"JavaFX banking application with account management, transactions, and balance tracking, applying DSA concepts for performance-oriented data handling.",
+},
 ];
 
 export const CERTIFICATIONS = [
